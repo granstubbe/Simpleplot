@@ -4,7 +4,7 @@
 
 
 var nodes = [];
-#Load the data
+//Load the data
 d3.csv("iris.csv", function(d) {
   return {
     xVal : +d["Sepal.Length"],
